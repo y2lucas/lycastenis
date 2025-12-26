@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
     padding: 0;
@@ -14,6 +15,7 @@
     --beige: #EFECE3;
     --azul-claro: #8FABD4;
     --azulescuro: #4A70A9;
+    --vermelho: red;
 }
 
 .header {
@@ -57,4 +59,75 @@
         font-size: 70px;
         max-width: 900px;
     }
+}
+
+.title-promocao,
+.title-mais-vendidos {
+    text-align: center;
+    padding-top: 2%;
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 15px;
+        font-size: 20px;
+        color: var(--vermelho);
+    }
+}
+
+.promocao {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.promocao div,
+.grid-vendidos div {
+    border-radius: 12px;
+    padding:100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid var(--azulescuro);
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+
+    img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+    }
+
+    span {
+        color: var(--azulescuro);
+    }
+
+    p {
+        color: var(--vermelho);
+    }
+}
+
+.title-mais-vendidos{
+    padding-top: 150px;
+}
+.grid-vendidos{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    gap: 100px;
+
+}
+
+.flex-propaganda{
+    display: flex;
+    flex: 1;
 }
