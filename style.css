@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -81,7 +82,7 @@
 .promocao {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(3,400px);
+    grid-template-columns: repeat(3, 400px);
     justify-content: center;
     text-align: center;
     gap: 100px;
@@ -90,7 +91,7 @@
 .promocao div,
 .grid-vendidos div {
     border-radius: 12px;
-    padding:100px;
+    padding: 100px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border: 0.1px solid var(--azulescuro);
     line-height: 30px;
@@ -114,12 +115,13 @@
     }
 }
 
-.title-mais-vendidos{
+.title-mais-vendidos {
     padding-top: 150px;
 }
-.grid-vendidos{
+
+.grid-vendidos {
     display: grid;
-    grid-template-columns: repeat(2,400px);
+    grid-template-columns: repeat(2, 400px);
     justify-content: center;
     text-align: center;
     padding-top: 50px;
@@ -127,7 +129,15 @@
 
 }
 
-.flex-propaganda{
+.flex-propaganda {
     display: flex;
+    width: 61%;
+    margin-top: 100px;
+
+}
+
+.flex-propaganda img {
     flex: 1;
+    height: auto;
+    width: 54.6%;
 }
