@@ -115,6 +115,11 @@
     }
 }
 
+.promocao div:hover {
+    border: 0.1px solid var(--vermelho);
+}
+
+
 .title-mais-vendidos {
     padding-top: 150px;
 }
@@ -140,4 +145,90 @@
     flex: 1;
     height: auto;
     width: 54.6%;
+}
+
+
+.title-Marcas {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.grid-marcas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.grid-marcas img {
+    height: 56%;
+    width: 56%;
+    object-fit: contain;
+
+}
+
+.flex-corrida {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+
+.Corrida-title {
+    background-color: var(--preto);
+     color: var(--branco);
+    height: 100%;
+    width: 100%;
+   
+    height: 70px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.propaganda-corrida img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tenis-corrida {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 100px;
+}
+
+.tenis-corrida div {
+    border: solid 0.1px var(--preto);
+    border-radius: 12px;
+    padding: 10px;
+
+
+    img {
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+    p,
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+
+    p {
+        color: var(--azulescuro);
+        font-size: 25px;
+    }
+
+
 }
