@@ -18,7 +18,8 @@
     --vermelho: red;
 }
 
-.header {
+.header,
+.background-1-fotter {
     height: 90px;
     width: 100%;
     display: flex;
@@ -34,7 +35,7 @@
         font-family: "Space Grotesk", sans-serif;
     }
 
-    section {
+    aside {
         padding-top: 30px;
 
     }
@@ -191,14 +192,14 @@
 }
 
 .grid-opces {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 .item-opcao {
-    position: relative; 
+    position: relative;
     display: inline-block;
     border-radius: 12px;
 }
@@ -212,23 +213,48 @@
 .texto-imagem {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    bottom: 23px; 
+    bottom: 23px;
     color: var(--preto);
-    background-color: var(--branco); 
+    background-color: var(--branco);
     padding: 10px 20px;
     margin-left: 10px;
     border-radius: 90px;
 }
 
-.texto-imagem:hover{
+.texto-imagem:hover {
     color: var(--branco);
-    background-color: var(--preto); 
+    background-color: var(--preto);
 }
 
-.footer{
+.footer {
     margin-top: 2%;
+}
+
+.footer article{
+     background-color: var(--preto);
+     height: 70px;
+     display: flex;
+    justify-content: center;
+
+    p {
+        align-content: center;
+        font-size: 23.2px;
+        font-weight: 700;
+        color: var(--branco);
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
+
+   
+
+
+
+    
+
+
+
+.background-2-fotter {
     background-color: var(--preto);
-    color: var(--branco);
-    width: 100%;
-    height: 100%;
+    height: 800px;
 }
