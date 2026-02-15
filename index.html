@@ -5,188 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Header com as opções-->
     <header class="header">
-        <a href="">Lycastenis</a>
-        <aside>
-            <a href="">Promoção</a>
-            <a href="">Mais Vendidos</a>
-            <a href="">Corrida</a>
-            <a href="">Marcas</a>
-            <a href="">Casual</a>
-            <a href="">Chuteiras</a>
-        </aside>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary p-0">
+            <div class="container-fluid style_elements">
+                <a class="navbar-brand opcoes_header ps-4" href="#">Lytenis</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse posicao" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Promoção</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mais vendidos</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link sumir_nahora" href="#">Corrida</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sumir_nahora" href="#">Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sumir_nahora" href="#">Casual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sumir_nahora" href="#">Chuteiras</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu bg-dark text-light">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                
+                            </ul>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <!-- Fundo Inicial -->
-    <section class="fundo-inicial">
-        <h2>Onde o clássico encontra o inesperado. Mergulhe no azul.</h2>
-    </section>
-    <div class="linha-abaixo-das-opces"></div>
-
-    <!-- Promoção -->
-
-    <section>
-        <div class="title-promocao">
-            <h1>Promoção</h1>
-            <a href="">15% OFF</a>
-            <a href="">25% OFF</a>
-        </div>
-    </section>
-
-    <section class="promocao">
-        <div>
-            <img src="img/puma01.png" alt="puma em Promoção">
-            <h2>Puma Up</h2>
-            <span>Cor:Branco/Preto</span>
-            <p>R$:189,99</p>
-        </div>
-        <div>
-            <img src="img/adidas01.jpg" alt="puma em Promoção">
-            <h3 id="adidascloud">Adidas Cloudfoam Move</h3>
-            <span>Cor:Preto/Branco</span>
-            <p>R$:249,99</p>
-        </div>
-        <div>
-            <img src="img/nike01.png" alt="Nike em Promoção">
-            <h3>Nike Big Nike Low</h3>
-            <span>Cor:Branco/Vermelho</span>
-            <p>R$:259,99</p>
-        </div>
-        <div>
-            <img src="img/nike02.png" alt="Nike em Promoção">
-            <h3>Nike Court Vision Low Next Nature</h3>
-            <span>Cor:Branco/Verde</span>
-            <p>R$:289,99</p>
-        </div>
-        <div>
-            <img src="img/adidas02.jpg" alt="puma em Promoção">
-            <h3>Adidas Lite Racer 4.0</h3>
-            <span>Cor:Preto</span>
-            <p>R$:199,99</p>
-        </div>
-        <div>
-            <img src="img/puma02.png" alt="puma em Promoção">
-            <h3>Puma Comet 2 Alt SR</h3>
-            <span>Cor: Preto/Rosa</span>
-            <p>R$:189,99</p>
-        </div>
-    </section>
-
-    <!-- Propagandas -->
-
-    <section class="Propaganda">
-        <article class="flex-propaganda">
-            <img src="img/propagandaadidas.jpg" alt="">
-            <img src="img/propagandanike.jpg" alt="">
-            <img src="img/prpagandaaidadas2.jpg" alt="">
-        </article>
-    </section>
-
-    <!-- Marcas -->
-
-    <section class="Marcas">
-        <article class="title-Marcas">
-            <h1>Marcas Mais Procuradas</h1>
-        </article>
-        <aside class="grid-marcas">
-            <div>
-                <img src="img/logopuma.jpg" alt="Logo Puma">
-            </div>
-            <div>
-                <img src="img/logoadidas.jpg" alt="Logo Adidas">
-            </div>
-            <div>
-                <img src="img/logonike.jpg" alt="Logo Nike">
-            </div>
-            <div>
-                <img src="img/logofila.jpg" alt="Logo Fila">
-            </div>
-            <div>
-                <img src="img/logonewbalance.png" alt="Logo New balance">
-            </div>
-        </aside>
-    </section>
-
-    <!-- Opções -->
-
-    <section class="opcoes">
-        <article class="grid-opces">
-            <aside class="item-opcao">
-                <a href="">
-                    <img src="img/chuteiraopcoes.jpg" alt="Chuteiras">
-                    <h2 class="texto-imagem">Chuteiras</h2>
-                </a>
-            </aside>
-
-            <aside class="item-opcao">
-                <a href="">
-                    <img src="img/casualopcoes.jpg" alt="Casual">
-                    <h2 class="texto-imagem">Casual</h2>
-                </a>
-            </aside>
-
-            <aside class="item-opcao">
-                <a href="">
-                    <img src="img/corridaopcoes.jpg" alt="Corrida">
-                    <h2 class="texto-imagem">Corrida</h2>
-                </a>
-            </aside>
-        </article>
-    </section>
+<!-- ajustar quase nada quando quebra o elemento que falta e fazer a grade e dentro as figures -->
 
 
-    <!-- Mais vendidos -->
 
-    <section class="mais-vendidos">
-        <div class="title-mais-vendidos">
-            <h1>Mais vendidos</h1>
-        </div>
-
-        <div class="grid-vendidos">
-            <div>
-                <img src="img/adidasuperstar.png" alt="Adidas Superstar">
-                <h3>Adidas <br>Superstar</h3>
-
-            </div>
-
-            <div>
-                <img src="img/pumaside.png" alt="Puma Side">
-                <h3>Puma Side</h3>
-
-            </div>
-
-            <div>
-                <img src="img/nikeairforce.png" alt="Nike Airforce">
-                <h3>Nike Air Force 1</h3>
-
-            </div>
-
-            <div>
-                <img src="img/adidasstansmith.png" alt="Adidas Stans">
-                <h3>Adidas Smith</h3>
-
-            </div>
-        </div>
-    </section>
-
-
-    <footer class="footer">
-        <article>
-            <p>Ande no seu ritmo, vista a sua essência.</p>
-        
-        </article>
-   
-    </footer>
-
-    <!-- Terminar o fotter e depois fazer a pagina de vendas do casual,coridda, chuteiras
-dark modo pagina de login cadastro comprar e cada tenis fazer e responsividade 
--->
-
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

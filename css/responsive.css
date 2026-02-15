@@ -1,0 +1,50 @@
+@media(max-width:600px) {
+
+    .opcoes_header {
+        font-size: 10px;
+    }
+
+
+    .style_elements {
+
+        a,
+        button,
+        ul,
+        li {
+            font-size: 22px;
+        }
+    }
+}
+
+
+@media(max-width:575px) {
+
+    .style_elements {
+
+        a {
+            font-size: 26px;
+        }
+    }
+}
+
+
+@media(max-width:1126px) {
+
+    .style_elements {
+
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(max-width:947px) {
+
+    .style_elements {
+    
+
+        .sumir_nahora {
+            display: none;
+        }
+    }
+}
