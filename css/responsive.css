@@ -21,10 +21,18 @@
 
     .style_elements {
 
-        a {
+        .logo_nome {
             font-size: 26px;
         }
     }
+
+   
+     .op1 > img{
+      background-image: url(../img/adidas02.jpg);
+    }
+    
+
+
 }
 
 
@@ -33,7 +41,7 @@
     .style_elements {
 
         a {
-            font-size: 20px;
+            font-size: 19px;
         }
     }
 }
@@ -41,8 +49,6 @@
 @media(max-width:947px) {
 
     .style_elements {
-    
-
         .sumir_nahora {
             display: none;
         }

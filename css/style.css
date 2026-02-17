@@ -30,7 +30,7 @@
     li {
         color: var(--branco);
         font-family: "Space Grotesk", sans-serif;
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 
@@ -49,4 +49,19 @@
 
 }
 
+#bannerTopo {
+    background: #eee;
+    padding-top: 18px;
+    font-weight: bold;
+    font-size: 30px;
 
+    img {
+        height: 50px;
+    }
+}
+
+
+.carrosel-imgs{
+    height:100%;
+    object-fit: cover;
+}
