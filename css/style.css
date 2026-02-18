@@ -61,7 +61,43 @@
 }
 
 
-.carrosel-imgs{
-    height:100%;
-    object-fit: cover;
+.carrosel-imgs {
+    height: 100%;
+    object-fit: contain;
+}
+
+.title_emAlta {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.texto-imagem {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 23px;
+    color: var(--preto);
+    background-color: var(--branco);
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 90px;
+}
+
+.texto-imagem:hover {
+    color: var(--branco);
+    background-color: var(--preto);
+}
+
+.item-opcao img {
+    transition: transform 0.3s ease;
+}
+.item-opcao:hover img {
+    transform: scale(1.05);
+}
+
+
+
+.dark-mon img{
+    height: 80px;
+    width: 80px;
 }
